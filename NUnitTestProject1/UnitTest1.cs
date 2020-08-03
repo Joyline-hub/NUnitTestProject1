@@ -25,6 +25,7 @@ namespace NUnitTestProject1
 
             //Perform ops
             element.SendKeys("test");
+            element.SendKeys(Keys.Enter);
         }
 
         [TearDown]
